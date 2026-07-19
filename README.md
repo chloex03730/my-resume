@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This project is an interactive online resume developed across six Front-End Web Technologies labs. Starting from a simple semantic HTML page, the project was gradually enhanced with responsive layouts, CSS animations, and JavaScript features to create a modern and interactive personal resume.
+This project is an interactive online resume inspired by **Chiikawa**, a popular Japanese character created by Nagano. The website presents Chiikawa's adventures, skills, education, and projects in the style of a personal resume.
+
+The project was developed across six Front-End Web Technologies labs. Starting from a simple semantic HTML page, it was gradually enhanced with responsive layouts, CSS animations, and JavaScript features to create a modern and interactive website.
 
 ## Features
 
@@ -49,10 +51,10 @@ This project is an interactive online resume developed across six Front-End Web 
 
 ## Validation
 
-- HTML validated with the W3C HTML Validator.
-- CSS validated with the W3C CSS Validator.
-- Tested on different screen sizes for responsive behaviour.
+- HTML validated using the W3C HTML Validator.
+- CSS validated using the W3C CSS Validator.
+- Tested on different screen sizes to ensure responsive behaviour.
 
 ## Author
 
-Created by Chiikawa for the Front-End Web Technologies Lab Project.
+Created as a Front-End Web Technologies lab project.
