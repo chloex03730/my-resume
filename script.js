@@ -130,6 +130,7 @@ reveals.forEach(function (section) {
 
 // Contact Form 
 
+
 const form = document.querySelector("#contact-form");
 const message = document.querySelector("#form-message");
 
@@ -141,10 +142,15 @@ form.addEventListener("submit", function (event) {
     const email = document.querySelector("#email").value.trim();
     const text = document.querySelector("#message").value.trim();
 
-    if (name === "" || email === "" || text === "") {
+    const emailOk = /^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email);
 
-        message.textContent = "Please fill in all fields.";
-        message.style.color = "red";
+    if (name === "" || !emailOk || text === "") {
+
+        message.textContent =
+            "Please enter your name, a valid email, and a message.";
+
+        message.style.color = "crimson";
+
         return;
     }
 
