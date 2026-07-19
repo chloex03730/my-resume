@@ -153,14 +153,14 @@
     <section id="contact" class="reveal">
     <h2>Contact Me</h2>
 
-    <form id="contact-form">
+    <form id="contact-form" novalidate>
 
         <label for="name">Name</label>
         <input
             type="text"
             id="name"
             name="name"
-            required
+            
         >
 
         <label for="email">Email</label>
@@ -168,7 +168,7 @@
             type="email"
             id="email"
             name="email"
-            required
+            
         >
 
         <label for="message">Message</label>
@@ -176,7 +176,7 @@
             id="message"
             name="message"
             rows="5"
-            required
+            
         ></textarea>
 
         <button type="submit">Send</button>
