@@ -57,4 +57,4 @@ The project was developed across six Front-End Web Technologies labs. Starting f
 
 ## Author
 
-Created as a Front-End Web Technologies lab project.
+Created by RIKO as a Front-End Web Technologies lab project.
